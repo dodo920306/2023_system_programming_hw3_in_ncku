@@ -11,16 +11,35 @@ Consequence of usage of any other c compiler is unknown.
 Also, notice that this file is developed on Ubuntu 20.04.
 
 ## Get started
-To compile the program, you can simply run
+One can simply run
 
 ```bash
 $ gcc main.c
 ```
 
-and run
+to compile the file.
+
+## Usage
+To use it, please prepare the input SIC/XE object file first.
+
+An input example is given as `input.txt` file.
+
+Run
 
 ```bash
-$ ./a.out
+$ ./a.out < ${input file path} > ${output file path (optional)}
 ```
 
-to execute it.
+to generate the corresponding memory image file based on random starting addresses.
+
+For example,
+
+```bash
+$ ./a.out < input.txt > output.txt
+```
+
+This will read in the object code and relocate it into random one of the pages starting between 0x1230 ~ 0x6000.
+
+The default page size used here is 64 bytes.
+
+You can change all of the setting in the macro of `main.c`.
