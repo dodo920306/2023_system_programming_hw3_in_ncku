@@ -1,5 +1,5 @@
 # 2023_system_programming_hw3_in_ncku
-This is the README file for the hw3 of the system programming courses in 2023, NCKU.
+This is the README file for the hw3 of the system programming courses in 2023, NCKU ---- a SIC/XE relocation loader.
 
 This file is meant to demonstrate how the program `main.c` does and how to use it.
 
@@ -43,3 +43,15 @@ This will read in the object code and relocate it into random one of the pages s
 The default page size used here is 64 bytes.
 
 You can change all of the setting in the macro of `main.c`.
+
+As for the `output.txt` example, one can load it into the memory with a SIC/XE simulator as shown in the following picture:
+
+<img src="image/load.png"/>
+
+Moreover, one can run it:
+
+<img src="image/run.png" />
+
+It will copy the content of `DEVF1` file and paste it to the `DEV05` file just as what it was designed for.
+
+**NOTE: Altough the code is original, this `input.txt` example is from the page 65 of the book *System Software: An Introduction to Systems Programming, 3/e* by Leland L. Beck. It's not mine and used here only for demonstration.**
