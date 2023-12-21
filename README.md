@@ -1,5 +1,5 @@
 # 2023_system_programming_hw3_in_ncku
-This is the README file for the hw3 of the system programming courses in 2023, NCKU ---- a SIC/XE relocation loader.
+This is the README file for the hw3 of the system programming courses in 2023, NCKU ---- an SIC/XE relocation loader.
 
 This file is meant to demonstrate how the program `main.c` does and how to use it.
 
