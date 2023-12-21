@@ -44,7 +44,7 @@ The default page size used here is 64 bytes.
 
 You can change all of the setting in the macro of `main.c`.
 
-As for the `output.txt` example, one can load it into the memory with a SIC/XE simulator as shown in the following picture:
+As for the `output.txt` example, one can load it into the memory with an SIC/XE simulator as shown in the following picture:
 
 <img src="image/load.png"/>
 
